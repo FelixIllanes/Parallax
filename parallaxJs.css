@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: monospace;
+}
+.contenedor{
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+}
+.parallax {
+  position: absolute;
+  margin: 0;
+  height: 100vh;
+  background-size: cover;
+  width: 100%;
+  z-index: -1;
+}
+.text{
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 100px;
+}
+.no-parallax{
+  margin-top: 0;
+  background-color: #5333ed;
+  z-index: 999;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+.no-parallax h1{
+  margin-top: 20%;
+  text-align: center;
+  font-size: 4rem;
+  font-family: sans-serif;
+}

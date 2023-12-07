@@ -1,0 +1,37 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.parallax-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width: 100%;
+    height: 100vh;
+}
+.parallax-container h2 {
+    font-size: 60px;
+    background: #eee;
+    padding: 8px 24px;
+    border-radius: 16px;
+}
+
+.parallax-container:nth-child(1){
+    background-image: url(assets/image1.webp);
+    background-size: cover;
+}
+.parallax-container:nth-child(2){
+    background-color: maroon;
+}
+.parallax-container:nth-child(3){
+    height: 400px;
+    background-image: url(assets/image3.webp);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.parallax-container:nth-child(4){
+    background-color: aquamarine;
+}
